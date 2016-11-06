@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+     Paleta de colores de google MaterialD
+     https://material.google.com/style/color.html#color-color-palette
+
+     Recurso de ayuda para definir colores
+     https://www.materialpalette.com/
+    -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#F50057</color>
+    <color name="editTextColorWhite">#FFFFFF</color>
+    <color name="editTextColorBlack">#000000</color>
+    <color name="backgroundtext_cad">#53292929</color>
+</resources>

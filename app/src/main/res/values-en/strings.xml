@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">PracticaMD</string>
+<string name="title_activity_referenia">RefereniaActivity</string>
+
+    <string name="him_username">Username</string>
+    <string name="him_password">Password</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Dont have account? </string>
+    <string name="create_here">Create here</string>
+
+    <string name="him_email">E-mail</string>
+    <string name="him_name">Name</string>
+    <string name="him_usuario">User</string>
+    <string name="him_confirm_password">Confir password</string>
+    <string name="join_up">Join up</string>
+
+    <string name="toolbar_tittle_create_account">Create account</string>
+    <string name="username_card">Miguel Garcia</string>
+    <string name="fistword_card">Hace</string>
+    <string name="timecard_card">4 días</string>
+    <string name="likenumbercard_card">10 me gusta</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Profile</string>
+    <string name="secondword_datail">Me Gusta</string>
+    <string name="tittleimagedetail">\"Todo copas en la playa\"</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, eos dicunt discere molestie ei, posse omnes iuvaret id mel, ea omittantur consequuntur nec. Sed aperiam laboramus no. Eu usu libris minimum dissentiet, dico possim rationibus quo ex. Ut ridens persius explicari eam. Cibo fugit eu pro.  Ad nibh pertinacia cum, fugit deseruisse nec ne, invidunt salutandi no est. Quo ne dicat hendrerit, ex ius reque philosophia. Veri ludus fuisset id sea. Duo impedit sensibus concludaturque ea, qui nihil inimicus ex. Vix et etiam quodsi feugait. Graece hendrerit pri an, id noluisse repudiare pro.  Vel ne fierent ancillae liberavisse. Homero reprehendunt mel no, has ex possim scaevola. Ad nec sanctus corpora, per id fastidii consulatu. Ut duo agam dictas laoreet, ne eum viris dolore. Nam ea dicat maiestatis eloquentiam, eos primis gloriatur te.  Cu nonumy consul qui. Est eu blandit invidunt sententiae, usu te dicant antiopam. Per ei eros tibique dignissim, offendit ponderum similique vix et. Pri copiosae sadipscing ad. Ei est iuvaret prodesset, in cibo deserunt nam. Eu pertinax maiestatis scriptorem per, sit ex sale dolore. Nam discere forensibus ex.  Suas mundi neglegentur id eos, te dolore detraxit salutatus per. Cu sea illud sanctus consectetuer, ut sit ridens tibique insolens. No prompta corpora mandamus sit, id soluta honestatis nec. Veniam appellantur ad quo, ut nam oblique oportere mnesarchum, ubique veritus ad vis. Mei populo facete constituto te, id tation iracundia ius.</string>
+    <string name="app_labelseach">Buscar</string>
+    <string name="search_hint">Buscar</string>
+    <string name="action_settings">Buscar</string>
+
+
+</resources>

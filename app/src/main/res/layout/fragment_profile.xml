@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.miguegar.practicamd.view.fragment.ProfileFragment">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@color/colorPrimary"
+        >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/colapsinToolbarProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:statusBarScrim="@color/colorPrimary"
+            android:fitsSystemWindows="true"
+            app:contentScrim="#4a90e2"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="190dp"
+                android:paddingBottom="50dp"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/usernameProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username_card"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_usernameProfile"
+                    />
+
+            </LinearLayout>
+
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- Reemplaza a la ListView-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pictureProfileRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/dimen_imageviewprofile"
+        android:layout_height="@dimen/dimen_imageviewprofile"
+        android:src="@drawable/image"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="@dimen/margintop_circleimageprofile"
+        android:elevation="@dimen/elevation_imageprofile"
+        app:layout_behavior="com.zoonref.SimpleViewBehavior"
+        app:dependsOn="@+id/appBarProfile"
+        app:dependType ="y"
+        app:dependTargetY="@dimen/limitY_circleimage"
+        app:targetX="@dimen/activity_vertical_margin"
+        app:targetY="@dimen/margintoptoobar_cirleimageprofil"
+        app:targetWidth ="@dimen/width_circleimagetoobar"
+        app:targetHeight ="@dimen/width_circleimagetoobar"
+        />
+
+
+    <TextView
+        android:id="@+id/usernameToobarProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:text="HOLA"
+        android:textSize="@dimen/textsize_usernametoobarpofile"
+        android:elevation="@dimen/elevation_imageprofile"
+        android:layout_marginLeft="@dimen/marginleft_usernametoobarprofile"
+        android:layout_marginTop="@dimen/marigintop_usernametoolbarprofie"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:alpha="0"
+        app:layout_behavior="com.zoonref.SimpleViewBehavior"
+        app:dependsOn="@+id/appBarProfile"
+        app:dependType ="y"
+        app:dependTargetY="@dimen/limitY_usernametoolbarprofile"
+        app:targetY="@dimen/margintoptargety_usernametoolbarprofile"
+        app:targetAlpha="1"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>
