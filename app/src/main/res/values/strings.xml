@@ -5,7 +5,7 @@
     <string name="him_username">Nombre de usuario</string>
     <string name="him_password">Contraseña</string>
     <string name="login">Login</string>
-    <string name="dont_have_account">¿No tienes cuenta?, </string>
+    <string name="dont_have_account">¿No tienes cuenta? </string>
     <string name="create_here">Crea una aquí</string>
 
     <string name="him_email">Correo</string>
