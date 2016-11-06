@@ -27,10 +27,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".LoginActivity" />
         </activity>
-        <activity
-            android:name=".RefereniaActivity"
-            android:label="@string/title_activity_referenia"
-            android:theme="@style/AppTheme" />
         <activity android:name=".view.ContainerActivity" />
 
 
